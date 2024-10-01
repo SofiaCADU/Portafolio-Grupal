@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Grupal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" href="Logo formal de Los cuchufli.png">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container row">
+            <section class="col-1">
+                <img class="Logo" src="Logo formal de Los cuchufli.png" alt="logo">
+            </section>
+            <section class="col-2">
+                <h1>Los Cuchuflis</h1>
+                <p class="description">Somos un pequeño grupo de desarrolladores con mucha creatividad en busca de
+                    aceptacion
+                </p>
+            </section>
+        </div>
+    </header>
+<!-- inicio -->
+    <section id="nosotros" class="section">
+        <div class="container">
+            <h2>Nosotros</h2>
+            <p class="section-description">Este es nuestro Equipo</p>
+            <div class="team">
+    
+                <!-- fin-->
+                <div class="team-member">
+                    <a class="perfil" target="_blank"  href="https://sofiacadu.github.io/Mi-portafolio-personal/"><img class="yo" src="sofi.jpg" alt="Equipo 2"></a>
+                    <p class="h4 m-4 Letras">Sofía Cáceres</p>
+                </div>
+                <div class="team-member">
+                    <a class="perfil" target="_blank"  href="https://giovacudme.github.io/portafolio_personal3/"><img class="yo" src="giovanni.jpg" alt="Equipo 1"></a>
+                    <p class="h4 m-4 Letras">Giovanni Molinet</p>
+                </div>
+                <div class="team-member">
+                    <a class="perfil" target="_blank" href="https://diegomkxc.github.io/portafolio/?authuser=0"><img class="yo" src="1000299243.jpg" alt=></a>
+                    <p class="h4 m-4 Letras">Diego Rojas</p>
+                </div>
+                <div class="team-member">
+                    <a class="perfil" target="_blank"  href="https://cristofoo.github.io/portafolio-mimi-2/"><img class="yo"  src="mim.jpg" alt="lol"></a>
+                    <p class="h4 m-4 Letras">Emilia Arredondo</p>
+                </div>
+                <div class="team-member">
+                    <a class="perfil" target="_blank"  href="https://cristofoo.github.io/portafoliomio/"><img class="yo" src="pajas.jpg" alt="Equipo 2"></a>
+                    <p class="h4 m-4 Letras">Cristofer Fuentes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyecto" class="section">
+        <div class="container">
+            <h2>Nuestro Proyecto</h2>
+            <div class="project">
+                
+                <div class="project-info">
+                    <h3>Zona de Sacrificio</h3>
+                    <p>Esta pagina fue un proyecto para educacion ciudadana de <a
+                            href="https://sofiacadu.github.io/Mejillones-zona-de-sacrificio/" target="_blank">Zonas de Sacrificio</a></p>
+                </div>
+                <div class="project-info">
+                    <h3>Proyecto Principal</h3>
+                    <p>La idea que tenemos de proyecto principal es una web de <a href="https://sofiacadu.github.io/Pagina-web-bocado-secreto/">venta de postres</a> y otras cosas variadas
+                        como jugos (estamos en proceso)
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="procesar_formulario.php" method="POST">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+            <div class="social-media">
+                <a href="https://www.instagram.com/bocadosecreto.cl/" class="social-link">Instagram</a>
+                <!-- Agregar más redes sociales según necesidad -->
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p class="xd">&copy; 2024 Los Cuchuflis. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
